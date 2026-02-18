@@ -1,0 +1,28 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Coverage and profiling
+coverage.out
+*.coverprofile
+cpu.prof
+mem.prof
+
+# Demo build output
+cmd/demo/demo
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
